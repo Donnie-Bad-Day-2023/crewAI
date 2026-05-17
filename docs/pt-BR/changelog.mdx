@@ -4,6 +4,57 @@ description: "Atualizações de produto, melhorias e correções do CrewAI"
 icon: "clock"
 mode: "wide"
 ---
+<Update label="15 mai 2026">
+  ## v1.14.5a6
+
+  [Ver release no GitHub](https://github.com/crewAIInc/crewAI/releases/tag/1.14.5a6)
+
+  ## O que mudou
+
+  ### Correções de Bugs
+  - Corrigir chamadas de ferramentas transmitidas quando available_functions está ausente
+  - Atualizar a dependência langsmith para a versão >=0.8.0 para resolver GHSA-3644-q5cj-c5c7
+  - Resolver espaços reservados de blocos de código não traduzidos na documentação em português brasileiro
+
+  ### Documentação
+  - Adicionar documentação para TavilyGetResearch
+  - Atualizar changelog e versão para v1.14.5a5
+
+  ## Contributors
+
+  @greysonlalonde, @heitorado, @iris-clawd, @lorenzejay, @manisrinivasan2k1
+
+</Update>
+
+<Update label="13 mai 2026">
+  ## v1.14.5a5
+
+  [Ver release no GitHub](https://github.com/crewAIInc/crewAI/releases/tag/1.14.5a5)
+
+  ## O Que Mudou
+
+  ### Recursos
+  - Deprecar CrewAgentExecutor, definir agentes Crew como AgentExecutor
+  - Melhorar ferramentas de sandbox Daytona
+
+  ### Correções de Bugs
+  - Corrigir bloco de código ausente no guia de primeiro fluxo em pt-BR
+  - Registrar falhas de pré-revisão e destilação HITL, adicionar learn_strict
+  - Corrigir urllib3 para vulnerabilidades de segurança
+  - Corrigir gitpython e langchain-core; ignorar CVE paramiko não corrigido
+  - Atualizar todos os pacotes de workspace publicados no bloqueio/sincronização uv
+
+  ### Documentação
+  - Adicionar guia de migração de `inputs.id` para `restoreFromStateId`
+  - Adicionar guia de atualização OSS e migração de crew para flow
+  - Atualizar changelog e versão para v1.14.5a4
+
+  ## Contribuidores
+
+  @akaKuruma, @greysonlalonde, @iris-clawd, @lorenzejay, @mislavivanda
+
+</Update>
+
 <Update label="09 mai 2026">
   ## v1.14.5a4
 
